@@ -64,7 +64,7 @@ pip3 install xformers
 cd ~
 cd stablediffusion
 conda activate ldm
-python scripts/txt2img.py --prompt "Elon Musk is standing in the white house with Donald Trump" --ckpt models/v2-1_768-ema-pruned.ckpt --config configs/stable-diffusion/v2-inference-v.yaml --H 768 --W 768  --device "cuda" --n_samples 1
+python scripts/txt2img.py --prompt "Elon Musk is standing in the white house with Donald Trump" --ckpt models/v2-1_768-ema-pruned.ckpt --config configs/stable-diffusion/v2-inference-v.yaml --H 768 --W 768  --device "cuda"
 ```
 
 # Some tutorial
