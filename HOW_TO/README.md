@@ -67,6 +67,15 @@ conda activate ldm
 python scripts/txt2img.py --prompt "A cute baby bear eating a big burger at home. The expression has to be cute and happy. This creative picture is for a new product launch to post on social media." --ckpt models/v2-1_768-ema-pruned.ckpt --config configs/stable-diffusion/v2-inference-v.yaml --H 768 --W 768  --device "cuda"
 ```
 
+
+# img2img
+
+## not ready yet
+
+```bash
+python scripts/img2img.py --prompt "A fantasy landscape, trending on artstation" --init-img img2img_sample/sample.jpg --strength 0.9 --ckpt models/v2-1_768-ema-pruned.ckpt
+```
+
 # Some tutorial
 
 https://www.scribd.com/document/618052202/Stable-Diffusion-Img2Img-Anything-v-3-0-Tutorial-My-Workflow
