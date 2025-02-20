@@ -1,5 +1,9 @@
 # This is a quick guide to setup the SD V2
 
+## Hardware used in this test
+
+RTX3090 with 24GB VRAM, this test require 15 / 24 VRAM
+
 ## clone the repo
 
 ```bash
