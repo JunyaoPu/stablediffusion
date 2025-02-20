@@ -41,7 +41,7 @@ wget --content-disposition "https://huggingface.co/stabilityai/stable-diffusion-
 cd ~
 cd stablediffusion
 conda activate ldm
-python scripts/txt2img.py --prompt "Elon Musk is standing in the white house with Donald Trump" --ckpt models/v2-1_768-ema-pruned.ckpt --config configs/stable-diffusion/v2-inference-v.yaml --H 768 --W 768  --device "cuda" --n_samples 1
+python scripts/txt2img.py --prompt "A cute baby bear eating a big burger at home. The expression has to be cute and happy. This creative picture is for a new product launch to post on social media." --ckpt models/v2-1_768-ema-pruned.ckpt --config configs/stable-diffusion/v2-inference-v.yaml --H 768 --W 768  --device "cuda" --n_samples 1
 ```
 
 # Speed up with xformers
@@ -64,7 +64,7 @@ pip3 install xformers
 cd ~
 cd stablediffusion
 conda activate ldm
-python scripts/txt2img.py --prompt "Elon Musk is standing in the white house with Donald Trump" --ckpt models/v2-1_768-ema-pruned.ckpt --config configs/stable-diffusion/v2-inference-v.yaml --H 768 --W 768  --device "cuda"
+python scripts/txt2img.py --prompt "A cute baby bear eating a big burger at home. The expression has to be cute and happy. This creative picture is for a new product launch to post on social media." --ckpt models/v2-1_768-ema-pruned.ckpt --config configs/stable-diffusion/v2-inference-v.yaml --H 768 --W 768  --device "cuda"
 ```
 
 # Some tutorial
