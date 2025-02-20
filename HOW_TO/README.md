@@ -70,3 +70,7 @@ python scripts/txt2img.py --prompt "Elon Musk is standing in the white house wit
 # Some tutorial
 
 https://www.scribd.com/document/618052202/Stable-Diffusion-Img2Img-Anything-v-3-0-Tutorial-My-Workflow
+
+How to create stunning images with Stable Diffusion
+
+https://medium.com/@saketh.kotamraju/how-to-create-stunning-images-with-stable-diffusion-3006dab2b7ce
