@@ -66,3 +66,7 @@ cd stablediffusion
 conda activate ldm
 python scripts/txt2img.py --prompt "Elon Musk is standing in the white house with Donald Trump" --ckpt models/v2-1_768-ema-pruned.ckpt --config configs/stable-diffusion/v2-inference-v.yaml --H 768 --W 768  --device "cuda" --n_samples 1
 ```
+
+# Some tutorial
+
+https://www.scribd.com/document/618052202/Stable-Diffusion-Img2Img-Anything-v-3-0-Tutorial-My-Workflow
